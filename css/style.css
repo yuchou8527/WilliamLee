@@ -1,0 +1,258 @@
+/*基準值設定*/
+:root {
+    /*色彩*/
+    --black: #000000ff;
+    --white: #ffffffff;
+    --lightgray: #d1d1d1ff;
+    --lightgreen: #00FFA3;
+    --darkblue: #15161Dff;
+    --gradient: linear-gradient(rgba(5, 0, 20, 1), rgba(1, 2, 30, 0.89));
+    
+    /*文字大小*/
+    --h1: 128px;
+    --h2: 64px;
+    --h3: 40px;
+    --fs_1: 32px;
+    --fs_2: 24px;
+    --fs_3: 20px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    vertical-align: middle;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.w-746 {
+    width: 746px;
+}
+
+.w-636 {
+    width: 636px;
+}
+
+.w-526 {
+    width: 526px;
+}
+
+.w-306 {
+    width: 306px;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/*文字設定*/
+.text-gray {
+    color: var(--lightgray);
+}
+
+.text-white {
+    color: var(--white)
+}
+
+.text-green {
+    color: var(--lightgreen);
+}
+
+.text-darkblue {
+    color: var(--darkblue);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.link-no-line {
+    text-decoration: none;
+}
+
+.link-no-line:hover {
+    text-decoration: underline;
+}
+
+.h1 {
+    font-size: var(--h1);
+}
+
+.h2 {
+    font-size: var(--h2);
+}
+
+.h3 {
+    font-size: var(--h3);
+}
+
+.text-normal {
+    font-size: var(--fs_1);
+}
+
+.text-small {
+    font-size: var(--fs_2);
+}
+
+.text-mini {
+    font-size: var(--fs_3);
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+/*margin設定*/
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+/*padding設定*/
+.p-16 {
+    padding: 16px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+.py-160 {
+    padding: 160px 0;
+}
+
+.py-96 {
+    padding: 96px 0;
+}
+
+.py-72 {
+    padding: 72px 0;
+}
+
+.py-40 {
+    padding: 40px 0;
+}
+
+/*navbar區域*/
+.bg-black {
+    background-color: var(--black);
+}
+
+/*banner區域*/
+.button-white {
+    width: 192px;
+    background-color: var(--white);
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+/*introduction區域*/
+.bg-ocean {
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*about區域*/
+.bg-white {
+    background-color: var(--white);
+}
+
+.box-shadow {
+    border: 1px solid var(--lightgray);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.08);
+}
+
+/*contact區域*/
+.bg-gradient {
+    background-image: var(--gradient);
+}
+
+.bg-gradient img {
+    border-radius: 40px;
+    transition: box-shadow 0.5s;
+}
+
+.bg-gradient img:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 0 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+/*project區域*/
+.button-black {
+    width: 171px;
+    background-color: var(--black);
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+/*footer區域*/
